@@ -1,0 +1,70 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+  }
+  a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  #profilepic {
+    border-style: double;
+    border-color: #04AA6D;
+    float: left;
+    margin-right: 25px;
+  }
+  body {
+    background-color: #555;
+    min-height: 100vh;
+    min-width: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  h1 {
+    margin: 15px;
+    color: white;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75;
+    height: 50px;
+
+  }
+  footer {
+    margin-top: auto;
+    display: block;
+    border-top: 1px solid white;
+    text-align: center;
+    padding: 10px;
+    background-color: darkgreen;
+    color: white;
+    width: auto;
+  }
+
+  #page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+  section {
+    color: white;
+  }
